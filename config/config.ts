@@ -317,7 +317,7 @@ export default defineConfig({
   ignoreMomentLocale: true,
   proxy: proxy[REACT_APP_ENV || 'dev'],
   manifest: {
-    basePath: '/',
+    basePath: '/iPanel/',
   },
   // Fast Refresh 热更新
   fastRefresh: {},
